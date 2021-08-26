@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+html{
+scroll-behavior: smooth;
+}
+.menu{
+background-color: #000000bb;
+width: 200px;
+position: fixed;
+height: 100%; 
+/* right: 0px; */
+/* width: 40%; */
+/* float: left; */
+}
+.menu a{
+display: block;
+}
+.content{
+padding-left: 0px;
+background-image: url("Фон.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+text-align: center;
+    /* background-color: crimson; */
+/* width: 60%; */
+/* float: right; */
+}
+h1{
+color: white;
+text-align: center;
+font-size: 50px;
+}
+a{
+color: white;
+text-decoration: none;
+line-height: 40px;
+text-align: center;
+display: inline-block;
+border-radius: 10px;
+transition: 0.3s;
+}
+a:hover{
+background-color: white;
+color: #222;
+border-radius: 10px;
+color: blue;
+}
+.button{
+ background-color: white;
+ color: blue;
+ padding-left: 10px;
+ padding-right: 10px;
+ /* font-size: 1000px; */
+ font-size: 40px;
+ margin-top: 20px;
+ margin-bottom: 100px;
+ transition: 0.3s;
+}
+.button:hover{
+background-color: red;
+color: white;
+}
+p{
+color: crimson;
+width: 1000px;
+margin: auto;
+background-color: white;
+padding: 10px;
+box-sizing: border-box;
+font-size: 30px;
+border-radius: 10px;
+color: blue;
+}
+img{
+width: 1000px;
+height: 550px;
+object-fit: cover;
+border-radius: 10px;
+
+}
+.Pat04Chek{
+object-position: bottom;
+}
